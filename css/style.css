@@ -381,7 +381,28 @@ section {
     justify-content: center;
     color: #5C3D2E;
     font-family: "Baloo2-Bold";
+    margin-bottom: 20px;
    
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #2a4cff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 .contact p{
