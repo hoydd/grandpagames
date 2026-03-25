@@ -77,6 +77,8 @@ section {
     list-style: none;
     display: flex;
     gap: 30px;
+     margin-left: auto;
+    margin-right: 20px;
 }
 
 .nav-menu a {
@@ -89,6 +91,34 @@ section {
 }
 
 .nav-menu a:hover {
+    color: #f4a261;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 20px;
+    position: absolute;
+    right: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Baloo2-Bold";
+    
+}
+
+.lang-switch a,
+.lang-switch span {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.lang-switch a:hover {
+    color: #f4a261;
+}
+
+.lang-switch a.active {
     color: #f4a261;
 }
 
@@ -401,6 +431,10 @@ section {
     font-weight: 500;
 }
 
+.contact-text {
+    text-align: center;
+}
+
 .contact-info a:hover {
     text-decoration: underline;
 }
@@ -409,6 +443,8 @@ section {
     color: #5C3D2E;
     font-size: 18px;
 }
+
+
 .footer {
     background-color: #5C3D2E;
     color: white;
@@ -513,6 +549,21 @@ section {
     }
     .nav-menu a {
         padding: 10px 0;
+    }
+
+     .lang-switch {
+        display: flex;
+        position: static;
+        transform: none;
+        align-items: center;
+        gap: 4px;
+        margin-left: auto;
+        margin-right: 12px;
+    }
+
+    .lang-switch a,
+    .lang-switch span {
+        font-size: 14px;
     }
 
     .hero {
